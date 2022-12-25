@@ -1,24 +1,36 @@
-GET http://localhost:8080/api/v1/flower
+#GET http://localhost:8080/api/v1/flower
+#
+####
+#POST http://localhost:8080/api/v1/flower
+#Content-Type: application/json
+#
+#{
+#  "sepalLength": 100,
+#  "color": "BLUE",
+#  "price": 100
+#}
+#
+####
+#POST http://localhost:8080/api/v1/flower
+#Content-Type: application/json
+#
+#{
+#"sepalLength": 32,
+#"color": "RED",
+#"price": 1321
+#}
+#
+####
+#DELETE http://localhost:8080/api/v1/flower/1
+
 
 ###
-POST http://localhost:8080/api/v1/flower
+POST http://localhost:8080/api/v1/users
 Content-Type: application/json
 
 {
-  "sepalLength": 100,
-  "color": "BLUE",
-  "price": 100
+  "name": "Matthew",
+  "email": "some.email@ucu.edu.ua",
+  "dob": "2004-02-17"
 }
 
-###
-POST http://localhost:8080/api/v1/flower
-Content-Type: application/json
-
-{
-"sepalLength": 32,
-"color": "RED",
-"price": 1321
-}
-
-###
-DELETE http://localhost:8080/api/v1/flower/1

@@ -1,4 +1,4 @@
-package ua.edu.ucu.demo.flowers;
+package ua.edu.ucu.flowerstore.flowers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
